@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAM</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/styles.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-purple">
+      <div class="container">
+        <a class="navbar-brand text-white" href="/index.html">PAM Consulting</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="/about.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <li><a class="dropdown-item" href="#">Business Relocation</a></li>
+                <li><a class="dropdown-item" href="#">Family Relocation</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="invest.html">Invest in Cyprus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Migration</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <a class="btn btn-warning" href="/auth.html">Login & Registration</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- Hero Section -->
+  <section class="hero-section text-center text-white d-flex flex-column align-items-center justify-content-center" style="background-image: url('/img/picture_home1.png');">
+    <div class="container">
+      <!-- Верхний блок с текстом -->
+      <div class="hero-content mb-5" >
+        <div class="tags mb-3">
+          <span class="badge bg-pink me-2">INVESTMENTS</span>
+          <span class="badge bg-pink me-2">BUSINESS RELOCATION</span>
+          <span class="badge bg-pink">FAMILY RELOCATION</span>
+        </div>
+        <h1 class="hero-title">Relocating to Cyprus</h1>
+        <p class="hero-subtitle">Seamless - Exceptional - Experience</p>
+        <p class="hero-description">
+          The captivating Mediterranean island of Cyprus has become a business haven with a flourishing expat community. 
+          The strategic location grants networking opportunities and the stability of being in the EU offers entrepreneurs the abilities they need to thrive.
+        </p>
+        <a href="#" class="btn btn-warning">Find Out More</a>
+      </div>
+      
+      <div class="d-flex justify-content-start flex-wrap" style="gap: 40px;">
+        <div class="card" style="width: 9rem;">
+          <img src="/img/nicosia.png" class="card-img-top" alt="Nicosia">
+          <div class="card-body">
+            <p class="card-text">Nicosia</p>
+          </div>
+        </div>
+      
+        <div class="card" style="width: 9rem;">
+          <img src="/img/Limassol.png" class="card-img-top" alt="Limassol">
+          <div class="card-body">
+            <p class="card-text">Limassol</p>
+          </div>
+        </div>
+      
+        <div class="card" style="width: 9rem;">
+          <img src="/img/Paphos.png" class="card-img-top" alt="Paphos">
+          <div class="card-body">
+            <p class="card-text">Paphos</p>
+          </div>
+        </div>
+      
+        <div class="card" style="width: 9rem;">
+          <img src="/img/Larnaka.png" class="card-img-top" alt="Larnaka">
+          <div class="card-body">
+            <p class="card-text">Larnaka</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2>OUR SERVICES</h2>
+        <hr class="underline" />
+      </div>
+      <div class="row justify-content-center">
+        <!-- Card 1: Family Relocation -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100 text-center">
+            <img src="/img/family-relocation.png" class="card-img-top" alt="Family Relocation">
+            <div class="card-body">
+              <h5 class="card-title">FAMILY RELOCATION</h5>
+              <p class="card-text">With strategic planning, we simplify the moving process so you and your family can feel safe and confident.</p>
+              <a href="#" class="btn btn-warning">Find Out More</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Card 2: Business Relocation -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100 text-center">
+            <img src="/img/business-relocation.png" class="card-img-top" alt="Business Relocation">
+            <div class="card-body">
+              <h5 class="card-title">BUSINESS RELOCATION</h5>
+              <p class="card-text">We handle the responsibility of moving your business to Cyprus, so you can focus on your business goals the optimal investment plan.</p>
+              <a href="#" class="btn btn-warning">Find Out More</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Card 3: Investment Plans -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100 text-center">
+            <img src="/img/investment-plans.png" class="card-img-top" alt="Investment Plans">
+            <div class="card-body">
+              <h5 class="card-title">INVESTMENT PLANS</h5>
+              <p class="card-text">Discover the opportunity to further enhance your business ambitions by choosing the optimal investment plan.</p>
+              <a href="#" class="btn btn-warning">Find Out More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container moving-to-paradise">
+    <div class="row g-0">
+      <div class="col-md-4 image-overlay">
+        <img src="/img/moving_to_paradise_image_left.png" alt="Beautiful view of a house with a pool" class="img-fluid">
+      </div>
+      <div class="col-md-4 d-flex flex-column justify-content-center">
+        <div class="text-center-container text-center">
+          <h2>MOVING TO PARADISE</h2>
+          <p>
+            Have you ever dreamed about the perfect place to live? Your definition of perfect may be different from someone else’s. Are you longing to live by the beach and listen to the soothing waves or are you a kind of person who enjoys the bustling sounds of the city? Whatever lifestyle you desire, Cyprus has it all!
+          </p>
+          <p>
+            Whether you’re travelling with your family, your partner, or as a solo business entrepreneur, this exotic island can offer you a little bit of everything.
+          </p>
+          <p>
+            If you’ve made the decision to relocate to Cyprus, then you are expecting to find a safe place to settle. With an extremely low crime rate, stunning sandy beaches, and awe-inspiring mountain views, Cyprus is the place to be!
+          </p>
+          <a href="#" class="btn btn-warning">Find Out More</a>
+        </div>
+      </div>
+      <div class="col-md-4 image-overlay">
+        <img src="/img/moving_to_paradise_image_right.png" alt="Scenic landscape view" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <section class="why-choose-cyprus text-center py-5">
+    <div class="container">
+        <h2 class="mb-4">WHY CHOOSE CYPRUS?</h2>
+        <p class="lead mb-5">When you’re searching for the ideal home, you want everything to be perfect. This is why over the years, more and more people from all around the world are choosing Cyprus as their ultimate destination. This small Mediterranean country mesmerizes millions of visitors every year.</p>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="icon-box">
+                    <img src="/img/why_choose_cyprus_icon_boxes_slide1_icon.png" alt="Tax Icon" class="img-fluid mb-3">
+                    <h5>Progressive tax system</h5>
+                    <p>Offering one of the most attractive tax regimes in Europe</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="icon-box">
+                    <img src="/img/why_choose_cyprus_icon_boxes_slide3_icon.png" alt="Weather Icon" class="img-fluid mb-3">
+                    <h5>Stunning weather and climate</h5>
+                    <p>Enjoy a high quality of life with over 324 days of sun annually</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="icon-box">
+                    <img src="/img/Icon Button.png" alt="Expat Icon" class="img-fluid mb-3">
+                    <h5>Blooming expat community</h5>
+                    <p>Become part of an increasingly diverse community</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="icon-box">
+                    <img src="/img/why_choose_cyprus_icon_boxes_slide4_icon.png" alt="Family Icon" class="img-fluid mb-3">
+                    <h5>Family-oriented values</h5>
+                    <p>Excellent education standards and extremely low crime rates</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<section class="who-we-are py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Left side with text -->
+      <div class="col-md-6">
+        <h2 class="mb-3">WHO WE ARE</h2>
+        <p>PAM Consulting is built upon a team of motivated professionals aiming to provide families and businesses the services they need to relocate to the island of Cyprus.</p>
+        <p>We understand the challenges of deciding to relocate and this is why we prioritize our clients’ needs by making sure that the whole relocation process is as smooth and simple as possible.</p>
+        <a href="#" class="btn btn-warning">More about us</a>
+      </div>
+      
+      <!-- Right side with image and founder info -->
+      <div class="col-md-6 text-center">
+        <div class="founder-card p-4">
+          <div class="row">
+            <!-- Column 1: Image -->
+            <div class="col-md-4">
+              <img src="/img/founder.png" alt="Founder" class="img-fluid rounded mb-3">
+            </div>
+            <!-- Column 2: Content -->
+            <div class="col-md-8 text-start">
+              <h5>FOUNDER</h5>
+              <p>Anastasia Papaharidemou</p>
+              <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</a>
+            </div>
+            
+              <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="contactModalLabel">Contact Information</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p><strong>Phone:</strong> +357 9056759</p>
+                      <p><strong>Email:</strong> <a href="mailto:contact@pamrelocation.com">contact@pamrelocation.com</a></p>
+                      <p><strong>Address:</strong> PAM Consulting, Cyprus</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="contact-us py-5">
+  <div class="container text-center">
+    <!-- Contact Information -->
+    <h2 class="mb-3">CONTACT US</h2>
+    <div class="contact-details mb-4">
+      <div>
+        <i class="fas fa-phone fa-2x mb-2"></i>
+        <p>+357 9056759</p>
+      </div>
+      <div>
+        <i class="fas fa-envelope fa-2x mb-2"></i>
+        <p>contact@pamrelocation.com</p>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form bg-light p-4 rounded">
+      <h4>SEND INQUIRY</h4>
+      <form>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6">
+            <input type="email" class="form-control" placeholder="Email" required>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Subject" required>
+          </div>
+          <div class="col-md-6">
+            <input type="tel" class="form-control" placeholder="Phone" required>
+          </div>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" rows="4" placeholder="Your message" required></textarea>
+        </div>
+        <div class="form-check mb-3">
+          <input type="checkbox" class="form-check-input" id="terms" required>
+          <label class="form-check-label" for="terms">
+            By clicking “Submit button” you accept our <a href="#">Terms & Conditions</a> and have read our <a href="#">Privacy Policy</a> and <a href="#">Disclaimer</a>.
+          </label>
+        </div>
+        <button type="submit" class="btn btn-warning">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
